@@ -1,0 +1,419 @@
+@font-face
+{
+    src: url(../assets/fonts/Lemonada.ttf);
+    font-family: 'Lemonada';
+}
+
+*
+{
+    font-family: 'Lemonada', cursive;
+}
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg, rgba(54,209,220,1) 23%, rgba(91,134,229,1) 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 71%, 0 94%);
+    padding-bottom: 300px;
+}
+
+.logo
+{
+    position: absolute;
+    top: 1%;
+    left: 12%;
+}
+
+.logo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.navigation
+{
+    position: absolute;
+    top: 60px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ham
+{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+
+.navigation > div:nth-child(2)
+{
+    width: 40px;
+}
+
+.uvp
+{
+    padding-top: 200px;
+    width: 100%;
+    /* margin: 100px auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img
+{
+    display: flex;
+    position: relative;
+    width: 629px;
+    padding-bottom: 544px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('../assets/images/yellow_globe.svg');
+    background-position-x: 34px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.download-android img
+{
+    width: 206.72px;
+    height: 80px;
+    margin-right: -15px;
+}
+
+.download-ios
+{
+    color: white;
+    background: rgb(255,101,106);
+    display: flex;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: right;
+}
+
+.download-text
+{
+    font-size: 20px;
+}
+
+.heading-container
+{
+    width: calc(100% / 2);
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.download-icon
+{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+
+
+.download-icon img
+{
+    height: inherit;
+    width: inherit;
+}
+.heading
+{
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: bold;
+    text-align: right;
+
+}
+
+.subHeading
+{
+    margin-bottom: 50px;
+    font-size: 30px;
+    direction: rtl;
+    text-align: right;
+}
+
+.howTo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.howTo-text
+{
+    background: linear-gradient(30deg, rgba(91,134,229,1) 23%, rgba(54,209,220,1) 100%);
+    clip-path: polygon(0 0, 100% 12%, 100% 60%, 0 45%);
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 300px;
+    width: inherit;
+}
+
+.steps
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.step-container
+{
+    position: relative;
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.step
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: linear-gradient(30deg, rgba(91,134,229,1) 23%, rgba(54,209,220,1) 100%);
+    clip-path: polygon(0 32%, 100% 0, 100% 65%, 0 100%);
+    text-align: right;
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 500px;
+}
+
+.step-text
+{
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 8%;
+    max-width: 40%;
+}
+
+.step-img
+{
+    text-align: center;             
+}
+
+.step-img img
+{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 10%;
+}
+
+.all-reports
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 40%;
+    top: 51%;
+    right: 12%;
+
+}
+
+.report-container
+{
+    top: 89%;
+    left: 6%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.report
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(255,131,131,1) 23%, rgba(255,0,0,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+}
+
+.report img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 65%;
+    height: 65%;
+}
+
+
+.fights
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(210,114,255,1) 23%, rgba(149,101,191,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+}
+
+.fights img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 60%;
+    height: 60%;
+}
+
+.func
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+
+.azmeh-salkeh
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(255,208,0,1) 23%, rgba(255,157,0,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(255, 255, 255, 0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+}
+
+.azmeh-salkeh img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 60%;
+    height: 60%;
+}
+
+.salkeh
+{
+    position: relative;
+    background: linear-gradient(120deg, rgba(133,236,141,1) 23%, rgba(32,196,44,1) 100%);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    -webkit-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 30px 90px 5px rgba(0,0,0,0.75);
+}
+
+.salkeh img
+{
+    position: absolute;
+    top: 20%;
+    right: 21%;
+    width: 60%;
+    height: 60%;
+}
+
+.func-title 
+{
+	text-transform: uppercase;
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card
+{
+    display: flex;
+    width: calc(100% / 2);
+    margin: 55px 20px;
+    border: 1px solid #8080804a;
+    border-radius: 50px;
+    text-align: center;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-text
+{
+    font-size: 20px;
+}
+
+.card-img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-img img
+{
+    width: 50%;
+}
+
+.equation
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+.loc
+{
+    color: rgba(54,209,220,1);
+}
+
+.speed
+{
+    color: rgba(255,131,131,1);
+}
+
+.accurate
+{
+    color: #09E489;
+}
+
+div:nth-child(1) > div.step-img > img
+{
+    width: 38%;
+}
