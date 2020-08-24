@@ -10,7 +10,6 @@
 body {
     padding: 0px;
     margin: 0px;
-    position: relative;
 }
 
 .header {
@@ -367,67 +366,23 @@ div:nth-child(1)>div.step-img>img {
 }
 
 .ending {
-    position: relative;
-    width: 100%;
-    margin-bottom: 400px;
-}
-
-.ending-content {
     display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    background: linear-gradient(30deg, rgba(91, 134, 229, 1) 23%, rgba(54, 209, 220, 1) 100%);
-    clip-path: polygon(0 32%, 100% 0, 100% 65%, 0 100%);
-    text-align: right;
-    width: 100%;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(30deg, rgba(54, 209, 220, 1) 23%, rgba(91, 134, 229, 1) 100%);
+    clip-path: polygon(0 0, 100% 12%, 100% 60%, 0 45%);
+    padding-bottom: 1000px;
 }
 
 .ending-title {
+    width: 50%;
     color: white;
-    font-size: 30px;
     text-align: right;
-    padding-right: 8%;
+    font-size: 30px;
     max-width: 40%;
 }
 
 .ending-img {
-    position: absolute;
     width: 40%;
-    z-index: 2;
-    top: 25%;
-    left: 10%;
-}
-
-.ending-img img {
-    z-index: 3;
-}
-
-.footer {
-    position: relative;
-    display: block;
-}
-
-.footer-text {
-    color: black;
-    font-size: 40px;
-}
-
-.footer-img {
-    width: 50%;
-}
-
-svg {
-    display: block;
-}
-
-.footer-content {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
+    margin-top: 120px;
 }

@@ -405,8 +405,10 @@ div:nth-child(1)>div.step-img>img {
 }
 
 .footer {
-    position: relative;
-    display: block;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 10.9%;
 }
 
 .footer-text {
@@ -426,8 +428,8 @@ svg {
     display: flex;
     width: 100%;
     margin: 0 auto;
-    justify-content: center;
+    justify-self: stretch;
     align-items: center;
     position: absolute;
-    bottom: 10px;
+    top: 43px;
 }

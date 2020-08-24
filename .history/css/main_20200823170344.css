@@ -10,7 +10,6 @@
 body {
     padding: 0px;
     margin: 0px;
-    position: relative;
 }
 
 .header {
@@ -369,7 +368,7 @@ div:nth-child(1)>div.step-img>img {
 .ending {
     position: relative;
     width: 100%;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 
 .ending-content {
@@ -381,7 +380,21 @@ div:nth-child(1)>div.step-img>img {
     text-align: right;
     width: 100%;
     padding-top: 300px;
-    padding-bottom: 300px;
+    padding-bottom: 500px;
+    margin-bottom: 200px;
+}
+
+.ending-content2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: linear-gradient(30deg, rgba(91, 134, 229, 1) 23%, rgba(54, 209, 220, 1) 100%);
+    clip-path: polygon(0 0, 100% 32%, 100% 55%, 0 100%);
+    text-align: right;
+    width: 100%;
+    padding-top: 300px;
+    padding-bottom: 600px;
+    margin-bottom: 200px;
 }
 
 .ending-title {
@@ -405,29 +418,17 @@ div:nth-child(1)>div.step-img>img {
 }
 
 .footer {
-    position: relative;
     display: block;
+    width: 100%;
+    background-image: linear-gradient(30deg, rgba(91, 134, 229, 1) 23%, rgba(54, 209, 220, 1) 100%);
+}
+
+.footer svg {
+    display: block;
+    fill: linear-gradient(30deg, rgba(91, 134, 229, 1) 23%, rgba(54, 209, 220, 1) 100%);
 }
 
 .footer-text {
     color: black;
-    font-size: 40px;
-}
-
-.footer-img {
-    width: 50%;
-}
-
-svg {
-    display: block;
-}
-
-.footer-content {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
+    font-size: 30px;
 }

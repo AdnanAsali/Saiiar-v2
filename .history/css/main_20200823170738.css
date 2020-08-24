@@ -10,7 +10,6 @@
 body {
     padding: 0px;
     margin: 0px;
-    position: relative;
 }
 
 .header {
@@ -369,7 +368,7 @@ div:nth-child(1)>div.step-img>img {
 .ending {
     position: relative;
     width: 100%;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
 
 .ending-content {
@@ -381,7 +380,8 @@ div:nth-child(1)>div.step-img>img {
     text-align: right;
     width: 100%;
     padding-top: 300px;
-    padding-bottom: 300px;
+    /* padding-bottom: 100px; */
+    /* margin-bottom: 200px; */
 }
 
 .ending-title {
@@ -405,13 +405,14 @@ div:nth-child(1)>div.step-img>img {
 }
 
 .footer {
-    position: relative;
-    display: block;
+    display: flex;
+    justify-self: stretch;
+    width: 100%;
 }
 
 .footer-text {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .footer-img {
@@ -420,14 +421,4 @@ div:nth-child(1)>div.step-img>img {
 
 svg {
     display: block;
-}
-
-.footer-content {
-    display: flex;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
 }

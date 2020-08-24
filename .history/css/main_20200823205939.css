@@ -404,10 +404,12 @@ div:nth-child(1)>div.step-img>img {
     z-index: 3;
 }
 
-.footer {
-    position: relative;
-    display: block;
-}
+/* .footer {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    bottom: 10.9%;
+} */
 
 .footer-text {
     color: black;
@@ -426,8 +428,5 @@ svg {
     display: flex;
     width: 100%;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 10px;
+    justify-items: center;
 }
